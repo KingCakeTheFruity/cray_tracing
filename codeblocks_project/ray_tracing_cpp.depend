@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1579966166 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\vector.cpp
+	"vector.hpp"
+	<cmath>
+
+1579900787 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\main.cpp
+	<string>
+	"ray_tracer.hpp"
+
+1579966194 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\vector.hpp
+	<iostream>
+
+1579968449 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\ray_tracer.hpp
+	<iostream>
+	<string>
+	<vector>
+	"vector.hpp"
+	"ray.hpp"
+	"primitive.hpp"
+	"model.hpp"
+	"light.hpp"
+	"camera.hpp"
+	"scene.hpp"
+
+1579967776 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\ray_tracer.cpp
+	"ray_tracer.hpp"
+	<cmath>
+	<fstream>
+
+1579950834 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\ray.hpp
+	"vector.hpp"
+
+1579950559 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\include\ray.hpp
+	"vector.hpp"
+
+1579950812 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\ray.cpp
+	"ray.hpp"
+
+1579968452 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\primitive.hpp
+	<iostream>
+	<string>
+	<cmath>
+	"properties.hpp"
+	"ray.hpp"
+	"intersection.hpp"
+
+1579966410 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\properties.hpp
+	<iostream>
+	"vector.hpp"
+
+1579951682 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\intersection.hpp
+	"vector.hpp"
+
+1579951676 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\intersection.cpp
+	"intersection.hpp"
+
+1579966850 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\primitive.cpp
+	"primitive.hpp"
+	<iostream>
+
+1579966416 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\properties.cpp
+	"properties.hpp"
+
+1579966973 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\model.hpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"vector.hpp"
+	"properties.hpp"
+	"primitive.hpp"
+
+1579966980 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\model.cpp
+	"model.hpp"
+
+1579967386 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\light.cpp
+	"light.hpp"
+
+1579967411 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\light.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"vector.hpp"
+	"primitive.hpp"
+	"intersection.hpp"
+
+1579967603 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\camera.cpp
+	"camera.hpp"
+
+1579967619 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\camera.hpp
+	"vector.hpp"
+	"ray.hpp"
+
+1579968015 c:\users\maxim\desktop\max\programming\ray_tracing_cpp\scene.hpp
+	<vector>
+	<string>
+	<fstream>
+	"vector.hpp"
+	"primitive.hpp"
+	"model.hpp"
+	"light.hpp"
+	"camera.hpp"
+
+1579968023 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\scene.cpp
+	"scene.hpp"
+

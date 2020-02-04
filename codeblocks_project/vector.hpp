@@ -13,11 +13,11 @@ struct Vector {
     Vector();
     Vector(double x_, double y_, double z_);
 
-    double len();
-    Vector normal();
+    double len() const;
+    Vector normal() const;
 
-    double dot(const Vector &other);
-    Vector cross(const Vector &other);
+    double dot(const Vector &other) const;
+    Vector cross(const Vector &other) const;
 };
 
 Vector operator+(const Vector &first, const Vector &second);

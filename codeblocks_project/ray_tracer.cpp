@@ -1,6 +1,7 @@
 #include "ray_tracer.hpp"
 #include <cmath>
 #include <fstream>
+#include <random>
 
 using namespace std;
 
@@ -8,6 +9,9 @@ const double inf = 1e10;
 
 const double AMBIENT = 0.1;
 const Vector BACKGROUND {AMBIENT, AMBIENT, AMBIENT};
+
+std::default_random_engine gen;
+std::uniform_real_distribution<double> uniform(-1.0, 1.0);
 
 template <typename T>
 T sign(T x) {
@@ -72,8 +76,24 @@ Vector trace_ray(Ray &ray, const vector<Primitive*> &objects, const vector<Light
         color *= sign(g(x, y, z));
     }
 
-    for (auto light : lights) {
-        light_effect += light.calculate_effect(point, inter.n, inter.obj, objects);
+    if (false) {
+        double x = uniform(gen);
+        double y = uniform(gen);
+        double z = uniform(gen);
+        Vector vec(x, y, z);
+        vec = oriented(inter.n, vec);
+        Ray reflected_ray(point + vec * eps, vec);
+        Vector le = trace_ray(reflected_ray, objects, lights, depth - 1);
+        if (!(le == BACKGROUND)) {
+            Intersection ref_inter = test_ray(reflected_ray, objects, nullptr);
+            Vector way = ref_inter.p - point;
+            le *= inter.n.dot(way) / (inter.n.len() * way.len());
+        }
+        light_effect = le;
+    } else {
+        for (auto light : lights) {
+            light_effect += light.calculate_effect(point, inter.n, inter.obj, objects);
+        }
     }
 
     if (obj.props.reflective) {
@@ -105,12 +125,15 @@ Vector trace_ray(Ray &ray, const vector<Primitive*> &objects, const vector<Light
         }
     }
 
+    reflected_color *= color;
+    refracted_color *= color;
     color *= light_effect * (1 - obj.props.reflective) * (1 - obj.props.refractive);
     color += reflected_color + refracted_color;
     return color;
 }
 
 vector<vector<Vector>> render_image(Camera camera, vector<Primitive*> objects, vector<Light> lights, int depth, int verbose) {
+    cout << objects.size() << endl;
     vector<vector<Vector>> image(camera.res_x, vector<Vector>(camera.res_y));
     for (int x = 0; x < camera.res_x; ++x) {
         if (verbose) {
@@ -119,8 +142,18 @@ vector<vector<Vector>> render_image(Camera camera, vector<Primitive*> objects, v
             }
         }
         for (int y = 0; y < camera.res_y; ++y) {
-            Ray ray = camera.get_ray(x, y);
-            image[x][y] = trace_ray(ray, objects, lights, depth);
+            if (false) {
+                int cnt = 800;
+                Vector color;
+                for (int i = 0; i < cnt; ++i) {
+                    Ray ray = camera.get_ray(x + uniform(gen), y + uniform(gen));
+                    color += trace_ray(ray, objects, lights, depth);
+                }
+                image[x][y] = color / cnt;
+            } else {
+                Ray ray = camera.get_ray(x, y);
+                image[x][y] = trace_ray(ray, objects, lights, depth);
+            }
         }
     }
     return image;

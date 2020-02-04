@@ -105,3 +105,107 @@
 1579968023 source:c:\users\maxim\desktop\max\programming\ray_tracing_cpp\scene.cpp
 	"scene.hpp"
 
+1579951676 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\intersection.cpp
+	"intersection.hpp"
+
+1579951682 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\intersection.hpp
+	"vector.hpp"
+
+1580494457 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\vector.hpp
+	<iostream>
+
+1579967386 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\light.cpp
+	"light.hpp"
+
+1579967411 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\light.hpp
+	<iostream>
+	<vector>
+	<string>
+	<cmath>
+	"vector.hpp"
+	"primitive.hpp"
+	"intersection.hpp"
+
+1579968452 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\primitive.hpp
+	<iostream>
+	<string>
+	<cmath>
+	"properties.hpp"
+	"ray.hpp"
+	"intersection.hpp"
+
+1579966410 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\properties.hpp
+	<iostream>
+	"vector.hpp"
+
+1580494433 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\ray.hpp
+	"vector.hpp"
+
+1579900787 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\main.cpp
+	<string>
+	"ray_tracer.hpp"
+
+1579968449 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\ray_tracer.hpp
+	<iostream>
+	<string>
+	<vector>
+	"vector.hpp"
+	"ray.hpp"
+	"primitive.hpp"
+	"model.hpp"
+	"light.hpp"
+	"camera.hpp"
+	"scene.hpp"
+
+1579966973 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\model.hpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"vector.hpp"
+	"properties.hpp"
+	"primitive.hpp"
+
+1580117783 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\camera.hpp
+	"vector.hpp"
+	"ray.hpp"
+
+1579968015 c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\scene.hpp
+	<vector>
+	<string>
+	<fstream>
+	"vector.hpp"
+	"primitive.hpp"
+	"model.hpp"
+	"light.hpp"
+	"camera.hpp"
+
+1579966980 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\model.cpp
+	"model.hpp"
+
+1580494202 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\primitive.cpp
+	"primitive.hpp"
+	<iostream>
+
+1579966416 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\properties.cpp
+	"properties.hpp"
+
+1580494426 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\ray.cpp
+	"ray.hpp"
+
+1579968023 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\scene.cpp
+	"scene.hpp"
+
+1580494504 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\vector.cpp
+	"vector.hpp"
+	<cmath>
+
+1580117773 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\camera.cpp
+	"camera.hpp"
+
+1580499625 source:c:\users\maxim\desktop\max\programming\cray_tracing\codeblocks_project\ray_tracer.cpp
+	"ray_tracer.hpp"
+	<cmath>
+	<fstream>
+	<random>
+

@@ -17,11 +17,11 @@ Vector::Vector(double x_, double y_, double z_) {
     z = z_;
 }
 
-double Vector::len() {
+double Vector::len() const{
     return sqrt(x * x + y * y + z * z);
 }
 
-Vector Vector::normal() {
+Vector Vector::normal() const{
     double l = len();
     if (l < eps) {
         return {0, 0, 0};
@@ -30,11 +30,11 @@ Vector Vector::normal() {
     }
 }
 
-double Vector::dot(const Vector &other) {
+double Vector::dot(const Vector &other) const{
     return x * other.x + y * other.y + z * other.z;
 }
 
-Vector Vector::cross(const Vector &other) {
+Vector Vector::cross(const Vector &other) const{
     double res_x = y * other.z - z * other.y;
     double res_y = z * other.x - x * other.z;
     double res_z = x * other.y - y * other.x;

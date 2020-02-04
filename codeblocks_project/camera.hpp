@@ -18,7 +18,7 @@ struct Camera {
 
     Camera ();
     Camera(const Vector origin, Vector direction, double distance, double width, double height, double res_coef);
-    Ray get_ray(int x, int y);
+    Ray get_ray(double x, double y);
     void update();
 };
 

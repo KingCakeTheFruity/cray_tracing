@@ -16,7 +16,7 @@ Camera::Camera(const Vector origin, Vector direction, double distance, double wi
     left_upper = o + direction * dist + ort1 * width * 0.5 + ort2 * height * 0.5;
 }
 
-Ray Camera::get_ray(int x, int y) {
+Ray Camera::get_ray(double x, double y) {
     Vector dx = ort1 * x * w / res_x;
     Vector dy = ort2 * y * h / res_y;
     return {o, (left_upper - dx - dy).normal()};

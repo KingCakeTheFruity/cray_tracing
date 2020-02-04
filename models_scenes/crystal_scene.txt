@@ -1,0 +1,17 @@
+width 50 height 50
+screen_distance 100
+resolution_coef 60
+
+depth 5
+
+cam_pos (0, 0, 0)
+cam_dir (1, 0, 0)
+
+Light point (180, 30, -20) (1, 1, 1) 100000
+Light point (130, 0, 30) (1, 1, 1) 70000
+Light point (220, 0, 0) (1, 1, 1) 80000
+
+Primitive Sphere (200, 5, 0) 23 ((0.9, 0.2, 0.7) 0.7 0.8 -1.5 0 0 (0, 0, 0) 0)
+Primitive Plane (250, 0, 0) (-1, 0, 0) ((0.3, 0.8, 0.8) 0 0 0 0 0 (0, 0, 0) 0)
+
+Model model.txt (200, 0, 0) 15 ((0.2, 0.8, 0.2) 0 0.7 0.9 0 0 (0, 0.1, 0.2) 0)

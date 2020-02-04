@@ -2,7 +2,7 @@
 
 Ray::Ray(const Vector &origin, const Vector &direction) {
     o = origin;
-    d = direction;
+    d = direction.normal();
 }
 
 Vector Ray::cast(double l) {

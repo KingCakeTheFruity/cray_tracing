@@ -10,8 +10,11 @@ Instruction:
 
 How to use:
 1. open https://github.com/MaximusTG/cray_tracing/tree/master/codeblocks_project/bin/Debug
+
 1.1 find some examples there
+
 2. edit scene.txt
+
 2.1 add some models!
 
 --- must be in scene! ---

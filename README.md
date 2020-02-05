@@ -15,6 +15,7 @@ How to use:
 4. add some models!
 
 --- must be in scene! ---
+
 width 50 height 50
 screen_distance 100
 resolution_coef 10

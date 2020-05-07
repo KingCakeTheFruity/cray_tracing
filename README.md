@@ -3,7 +3,7 @@
 
 Instruction:
 1. Download .exe file from https://github.com/MaximusTG/cray_tracing/tree/master/codeblocks_project/bin/Debug
-2. Place him in the same folder with 'scene.txt' file (check examples and readme below)
+2. Place it in the same folder with 'scene.txt' file (check examples and readme below)
 3. Run .exe file
 4. Find a way to open .ppm files
 5. Have fun experementing with different scenes and models

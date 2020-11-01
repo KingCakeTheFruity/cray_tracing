@@ -50,3 +50,11 @@ Primitive Plane  (0, -20, 0) (0, 1, 0) ((0.75, 0.35, 0.15) 0 0 1.3 0 0 (0, 0, 0)
 
 Model model.txt (200, 0, -10) 100 ((0.2, 0.8, 0.2) 0 0 1.3 0 0 (0, 0, 0) 0)
 ```
+# Some results
+(More in showcase folder)
+
+![top](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/showcase.jpg)
+![lens](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/green_lens.png)
+![cry1](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/crystal_1.jpg)
+![ship](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ship.png)
+![ufo](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ufo.jpg)

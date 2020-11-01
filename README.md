@@ -55,7 +55,7 @@ Model model.txt (200, 0, -10) 100 ((0.2, 0.8, 0.2) 0 0 1.3 0 0 (0, 0, 0) 0)
 # Some results
 (More in showcase folder)
 
-![lens](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/green_lens.png)
-![cry1](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/crystal_1.jpg)
-![ship](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ship.jpg)
-![ufo](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ufo.jpg)
+<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/green_lens.png" alt="alt text" width="600" height="600">
+<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/crystal_1.jpg" alt="alt text" width="600" height="600">
+<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ship.jpg" alt="alt text" width="600" height="600">
+<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ufo.jpg" alt="alt text" width="600" height="600">

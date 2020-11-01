@@ -1,4 +1,6 @@
 # CPP RAY TRACING
+![top](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/showcase.jpg)
+(check out more pictures below)
 
 ### How to use
 1. Build ray_tracer by calling ```gcc main.c -lm``` or any other compiler
@@ -50,3 +52,10 @@ Primitive Plane  (0, -20, 0) (0, 1, 0) ((0.75, 0.35, 0.15) 0 0 1.3 0 0 (0, 0, 0)
 
 Model model.txt (200, 0, -10) 100 ((0.2, 0.8, 0.2) 0 0 1.3 0 0 (0, 0, 0) 0)
 ```
+# Some results
+(More in showcase folder)
+
+![lens](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/green_lens.png)
+![cry1](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/crystal_1.jpg)
+![ship](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ship.jpg)
+![ufo](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ufo.jpg)

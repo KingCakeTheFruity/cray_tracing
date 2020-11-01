@@ -1,5 +1,5 @@
 # CPP RAY TRACING
-![top](https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/showcase.jpg)
+<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/showcase.jpg" alt="alt text" width="600" height="600">
 (check out more pictures below)
 
 ### How to use

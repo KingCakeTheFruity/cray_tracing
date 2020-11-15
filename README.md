@@ -1,5 +1,5 @@
 # CPP RAY TRACING
-<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/showcase.jpg" alt="alt text" width="600" height="600">
+<img src="showcase/showcase.jpg" alt="alt text" width="600" height="600">
 (check out more pictures below)
 
 ### How to use
@@ -55,7 +55,7 @@ Model model.txt (200, 0, -10) 100 ((0.2, 0.8, 0.2) 0 0 1.3 0 0 (0, 0, 0) 0)
 # Some results
 (More in showcase folder)
 
-<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/green_lens.png" alt="alt text" width="600" height="600">
-<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/crystal_1.jpg" alt="alt text" width="600" height="600">
-<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ship.jpg" alt="alt text" width="600" height="600">
-<img src="https://github.com/KingCakeTheFruity/cray_tracing/blob/master/showcase/ufo.jpg" alt="alt text" width="600" height="600">
+<img src="showcase/green_lens.png" alt="alt text" width="600" height="600">
+<img src="showcase/crystal_1.jpg" alt="alt text" width="600" height="600">
+<img src="showcase/ship.jpg" alt="alt text" width="600" height="600">
+<img src="showcase/ufo.jpg" alt="alt text" width="600" height="600">
